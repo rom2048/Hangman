@@ -1,0 +1,60 @@
+svg {
+  width: auto;
+}
+
+.gallow-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallow {
+  max-height: 20rem;
+  /* overflow: visible; */
+}
+
+.head {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  width: 4rem;
+  height: auto;
+}
+
+.body {
+  position: absolute;
+  top: 9rem;
+  right: 2rem;
+  height: 5rem;
+}
+
+.leftArm {
+  position: absolute;
+  top: 15rem;
+  right: 3rem;
+}
+
+.rightArm {
+  position: absolute;
+  top: 15rem;
+  right: -1rem;
+  transform: rotateY(180deg);
+}
+
+.leftLeg {
+  position: absolute;
+  top: 23rem;
+  right: 3rem;
+}
+
+.rightLeg {
+  position: absolute;
+  top: 23rem;
+  right: -1rem;
+  transform: rotateY(180deg);
+}
+
+.body-part {
+  opacity: 0;
+}
